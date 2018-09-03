@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Avenir;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .Navigation2Item {
+        height: 70px;
+        margin-top: -50px;
+    }
+
+    .Navigation2Item p {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+        padding: 10px 60px 60px 60px;
+    }
+
+    .Navigation2Item:Hover {
+        position: relative;
+        margin-top: -60px;
+        background-color: #efefef;
+        height: 80px;
+    }
+
+    .Navigation2Item:Hover p {
+
+    }
+
+    .NavigationIcon {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .Navigation2Item a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 18px;
+        text-decoration: none;
+        transition: 700ms;
+        font-size: 17px;
+    }
+
+    .TitleOfPage h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .TitleOfPage p {
+        color: white;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+}
+
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+
+@media only screen and (min-width: 1201px) {
+
+
+    .Navigation2Item {
+        height: 150px;
+        margin-top: -90px;
+    }
+
+    .Navigation2Item p {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.8s linear;
+
+        padding: 10px 60px 60px 60px;
+    }
+
+    .Navigation2Item a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 18px;
+        text-decoration: none;
+        transition: 700ms;
+        font-size: 20px;
+    }
+
+    .Navigation2Item:Hover p {
+        visibility: visible;
+        opacity: 1;
+        transition-delay: 0.2s;
+        margin-top: -10px;
+    }
+
+    .NavigationIcon {
+        display: inline;
+        margin-top: 10px;
+    }
+
+
+
+    .Navigation2Item:Hover {
+        position: relative;
+        margin-top: -240px;
+        height: 300px;
+        background-color: #efefef;
+    }
+
+    .TitleOfPage h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .TitleOfPage p {
+        margin-top: 20px;
+        color: white;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+/*########################################################################################################################*/
+
+@media only screen and (min-width: 1500px) {
+    .TitleOfPage p {
+        margin-top: 20px;
+        color: white;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .TitleOfPage h2 {
+        color: white;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+}
+
+
+
+
+    #content {
+    margin-top: 30px;
+}
+
+
+#Navigation {
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    transition: 800ms;
+}
+
+
+#Logo {
+    height: 80%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#Titel {
+    padding-top: 15px;
+    margin-left: 20px;
+    float: left;
+    color: white;
+}
+
+.ulNavigation {
+    list-style-type: none;
+    padding-left: 170px;
+}
+
+
+.NavigationItem {
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NavigationItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    text-decoration: none;
+    transition: 700ms;
+}
+
+.NavigationItem a:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.TitleOfPage {
+    position: absolute;
+    top: 10vw;
+    left: 100px;
+    width: 40%;
+}
+
+
+
+#Monitor {
+    width: 35%;
+    position: absolute;
+    top: 5vw;
+    left: 60%;
+}
+
+
+
+.ulNavigation2 {
+    list-style-type: none;
+}
+
+
+.Navigation2Item {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    width: 23%;
+    transition: 500ms;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.active2 {
+    background-color: #ececec;
+}
+
+.active2:Hover {
+    background-color: #cfcfcf;
+}
+
+
+
+#Boxes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Block {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#impresumsbalken {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.FooterContent {
+    text-align: center;
+
+}
+
+.FooterContent a {
+    text-decoration: none;
+}
+
+#Preisbereich {
+    margin: 0 auto;
+
+}
+
+.Preisbox {
+    float: left;
+    width: 40%;
+    max-width: 350px;
+    margin: 20px;
+    background-color: white;
+    transition: 300ms;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 0px 0px 5px rgba(105,105,105,0.58);
+}
+
+
+
+.Preisbox:Hover {
+    box-shadow: 0px 0px 20px grey;
+    position: relative;
+}
+
+.PreisboxHeading {
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.PreisProMonat {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.HorizontaleLinie {
+    border-top: #e2e2e2 solid 2px;
+}
+
+.proMonat {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.Vertragsbedingung {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #717171;
+}
+
+.PacketinhaltItem {
+    text-align: left;
+    list-style-image: url("Images/haken.png");
+    line-height: 40px;
+}
+
+.PacketinhaltItemNicht {
+    text-align: left;
+    list-style-image: url("Images/hakengrau.png");
+    line-height: 40px;
+    color: #9c9c9c;
+}
+
+.Packetinhalt {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.PreisboxButton {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgb(100, 18, 120);
+    border: solid 2px rgb(100, 18, 120);
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 600ms;
+}
+
+.PreisboxButton:hover {
+    background-color: white;
+    color: black;
+}

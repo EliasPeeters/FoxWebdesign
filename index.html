@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FoxWebdesign</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <script src="main.js"></script>
+    <script src="textshorter.js"></script>
+
+
+
+
+
+
+    <div id="Navigation">
+        <img src="Images/Logo.png" id="Logo">
+        <h1 id="Titel">FOX Webdesign</h1>
+        <ul id="ulNavigation">
+            <li class="NavigationItem"><a href="kontakt.html">Kontakt</a></li>
+            <li class="NavigationItem"><a href="preisliste.html">Preisliste</a></li>
+            <li class="NavigationItem"><a onclick="ueberuns()">Über uns</a></li>
+            <li class="NavigationItem"><a class="active" onclick="home()">Home</a></li>
+        </ul>
+    </div>
+
+    <div id="Background">
+        <img src="Images/Background.svg">
+    </div>
+    
+    <div id="Monitor">
+        <img id="LeftImage" src="Images/Monitor2.SVG">
+    </div>
+
+
+
+    <div class="TitleOfPage">
+        <h2 id="Title1">Professionelles und</h2>
+        <h2 id="Title2">Individuelles Webdesign</h2>
+        <h2 id="Title3">& Webosting</h2>
+        <div id="TextOnTitle">
+            <p> Wir bei FOX Webdesign sind ein kleines Team von
+                engagierten Designern, die ihenen dabei helfen wollen, die richtige
+                Website oder das richtige Design individuell für ihr Unternehmen zu
+                kreieren.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <ul class="ulNavigation2">
+            <li onclick="Webdesign()" onmouseover="Webdesign()" class="Navigation2Item" id="Navigation3Item">
+                <img id="WebdesignIcon" class="NavigationIcon" src="Images/Webdesign%20Icon.svg" width="100vw">
+                <a>Webdesign</a>
+                <p>Wir gestalten ihre Webseite nach ihren Wünschen. Ob modern, schlicht oder seriös, bei uns werden sie fündig.</p>
+            </li>
+
+            <li onclick="Server()" onmouseover="Server()" class="Navigation2Item">
+                <img id="HostingIcon" class="NavigationIcon" src="Images/Hosting%20Icon.svg" width="100vw">
+                <a>Hosting</a>
+                <p>Wir gestalten ihre Webseite nach ihren Wünschen. Ob modern, schlicht oder seriös, bei uns werden sie fündig.</p>
+            </li>
+
+            <li onclick="Money()" onmouseover="Money()" class="Navigation2Item">
+                <img id="MoneyIcon" class="NavigationIcon" src="Images/Preise%20Icon.svg" width="100vw">
+                <a>Preise</a>
+                <p>Wir gestalten ihre Webseite nach ihren Wünschen. Ob modern, schlicht oder seriös, bei uns werden sie fündig.</p>
+            </li>
+
+            <li onmouseover="Sonstiges()" class="Navigation2Item" >
+                <img id="OtherIcon" class="NavigationIcon" src="Images/Sonstige%20Designs%20Icon.svg" width="100vw">
+                <a >Sonstige Designs</a>
+                <p>Wir gestalten ihre Webseite nach ihren Wünschen. Ob modern, schlicht oder seriös, bei uns werden sie fündig.</p>
+            </li>
+        </ul>
+
+
+
+
+
+
+    <div id="content">
+        <div id="Preisbereich">
+
+
+            <div id="preise">
+                <div class="Preisbox">
+                    <p class="PreisboxHeading">Starterpaket</p>
+                    <p class="PreisProMonat" style="line-height: 60px; margin-bottom: 58px">49,99€ <em class="proMonat"> / einmalig</em> </p>
+                    <p class="Vertragsbedingung"></p>
+                    <div class="HorizontaleLinie"></div>
+                    <ul class="Packetinhalt">
+                        <li class="PacketinhaltItem">nach eigenen Wünschen designte Website</li>
+                        <li class="PacketinhaltItem">professionelle hochauflösende Bilder</li>
+                        <li class="PacketinhaltItemNicht">eigene Domain, wie ihrname.de</li>
+                        <li class="PacketinhaltItemNicht">24/7 Webhosting</li>
+                    </ul>
+                    <div class="HorizontaleLinie"></div>
+                    <button class="PreisboxButton">Kontaktieren sie uns</button>
+            </div>
+
+
+            <div class="Preisbox">
+                <p class="PreisboxHeading">Rundum Sorglos</p>
+                <p class="PreisProMonat" style="line-height: 60px;">24,99€ <em class="proMonat"> / einmalig</em> </p>
+                <p class="PreisProMonat" style="line-height: 15px;"> 9,99€ <em class="proMonat"> / Monat</em> </p>
+                <p class="Vertragsbedingung">Mindestvertragslaufzeit von 3 Monaten</p>
+                <div class="HorizontaleLinie"></div>
+                <ul class="Packetinhalt">
+                    <li class="PacketinhaltItem">nach eigenen Wünschen designte Website</li>
+                    <li class="PacketinhaltItem">professionelle hochauflösende Bilder</li>
+                    <li class="PacketinhaltItem">eigene Domain, wie ihrname.de</li>
+                    <li class="PacketinhaltItem">24/7 Webhosting</li>
+                </ul>
+                <div class="HorizontaleLinie"></div>
+                <button class="PreisboxButton">Kontaktieren sie uns</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
