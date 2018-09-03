@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Avenir;
+    font-family: 'Hind', sans-serif;
 }
 
 
@@ -165,10 +165,32 @@ body {
 
 
 
-
-    #content {
-    margin-top: 30px;
+#Title {
+    font-family: 'Gloria Hallelujah', cursive;
 }
+
+
+
+
+
+
+#content {
+    margin-top: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#UeberunsTextHeading {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+#UeberunsTextHeadingDieZweite {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 
 
 #Navigation {
